@@ -7,4 +7,6 @@ const mapDispatchToProps = {
   handleSearchInputChange: handleVideoSearch
 };
 
-export default connect(null, mapDispatchToProps)(Search);
+const SearchContainer = connect(null, mapDispatchToProps)(Search);
+
+export default SearchContainer;

@@ -8,4 +8,6 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default connect(mapStateToProps)(VideoPlayer);
+const VideoPlayerContainer = connect(mapStateToProps)(VideoPlayer);
+
+export default VideoPlayerContainer;
